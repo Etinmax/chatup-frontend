@@ -60,7 +60,7 @@ export default function ChatDashboard() {
         <div className="text-center max-w-md w-full">
           <div className="w-16 h-16 bg-black rounded-full flex items-center justify-center mx-auto mb-4">
             {/*<Send className="w-8 h-8 text-primary" />*/}
-            <img src="cu.png" alt="" />
+            <a href="/"><img src="cu.png" alt="" /></a>
           </div>
           <h2 className="text-2xl font-bold text-foreground mb-2">Welcome to ChatUp</h2>
           <p className="text-muted-foreground mb-6">Please sign in to access your messages</p>
